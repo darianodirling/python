@@ -1,3 +1,5 @@
+#@author Darian O'Dirling
+#This program helps you budget your meal plan
 
 import tkinter as tk
 import datetime
@@ -30,6 +32,8 @@ class PirateBudgetGUI:
 
     def calculate_budget(self):
         today = datetime.date.today()
+
+        #Update this with the end of your semester
         future = datetime.date(2023, 5, 1)
         diff = future - today
 
